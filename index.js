@@ -1,5 +1,4 @@
 import express from "express";
-import bcrypt from "bcrypt";
 import mongoose from "mongoose";
 import cors from "cors";
 import { userRouter, userPrefix } from "./routes/user.js";
