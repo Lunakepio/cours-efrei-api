@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "test": "jest --detectOpenHandles",
-    "start": "node --watch index.js"
+    "start": "node --watch index.js",
+    "lint": "eslint '**/*.js'"
   },
   "author": "Alex",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "@babel/preset-env": "^7.26.9",
+    "@jest/globals": "^29.7.0",
     "babel-jest": "^29.7.0",
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
@@ -21,6 +23,5 @@
     "supertest": "^7.1.0"
   },
   "devDependencies": {
-    "eslint": "^9.27.0"
   }
 }

@@ -1,4 +1,6 @@
+import { describe, test, expect } from '@jest/globals'
 import { Divide } from "./divide";
+
 
 describe('testing divide function', () => {
   // test('4 / 2 to be 2', () => {

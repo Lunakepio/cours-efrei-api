@@ -1,3 +1,5 @@
+import { describe, test, expect } from '@jest/globals'
+
 import { Pow } from "./pow";
 
 describe('testing pow function', () => {
