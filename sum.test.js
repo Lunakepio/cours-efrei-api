@@ -1,6 +1,6 @@
 import { Sum } from "./sum";
 
-describe('alg functions', () => {
+describe('sum functions', () => {
   test('1 + 2 to be equal 3', () => {
     expect(Sum(1, 2)).toBe(3);
   });
